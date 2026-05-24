@@ -28,7 +28,7 @@ from evaluation.latency_tracker import track
 
 LLM_PROVIDER  = os.getenv("LLM_PROVIDER",  "groq")
 GROQ_API_KEY  = os.getenv("GROQ_API_KEY",  "")
-GROQ_MODEL    = os.getenv("GROQ_MODEL",    "llama-3.3-70b-versatile")
+GROQ_MODEL    = "groq/compound-mini"
 OPENAI_API_KEY= os.getenv("OPENAI_API_KEY","")
 OPENAI_MODEL  = os.getenv("OPENAI_MODEL",  "gpt-4o-mini")
 OLLAMA_BASE   = os.getenv("OLLAMA_BASE_URL","http://localhost:11434")
